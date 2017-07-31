@@ -3,7 +3,7 @@ var router= express.Router();
 var deathCab=require('./data.js');
 
 
-router.get('/', function (req, res){
+router.get('/lyrics', function (req, res){
 res.json(deathCab[Math.floor(Math.random()* deathCab.length)]);
 
 });
