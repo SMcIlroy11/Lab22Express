@@ -1,0 +1,23 @@
+
+
+h1 {
+  text-align: left;
+}
+
+.lyrics {
+  width: 20%;
+  float: left;
+  font-size: 120%;
+  text-align: center;
+}
+
+.albumCover {
+  border: solid;
+  width: 40%;
+  height: 380px;
+  background-image: url("http://static.stereogum.com/uploads/2015/01/dcfc-kintsugi.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  float: right;
+  margin-right: 20%;
+}

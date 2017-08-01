@@ -7,7 +7,7 @@ console.log("My controller is loaded");
 var c=0;
 var lyric=null;
 
-var timer= $interval(function (){
+// var timer= $interval(function (){
 $http ({
   method: 'GET',
   url: '/deathCab/lyrics'
@@ -16,8 +16,8 @@ console.log(response);
 $scope.lyric=response.data;
 
 });
-  c++;
-},2000);
+//   c++;
+// },5000);
 
 
 });
